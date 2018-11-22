@@ -172,6 +172,7 @@
     <Content Include="img\products-01.jpg" />
     <Content Include="img\products-02.jpg" />
     <Content Include="img\products-03.jpg" />
+    <Content Include="img\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
