@@ -6,33 +6,28 @@ using System.Web.Mvc;
 
 namespace SounCheckPro.Controllers
 {
-    public class VisitorController : Controller
+    public class ClientController : Controller
     {
-        // GET: Visitor
+        // GET: Client
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult HomePage()
+        public ActionResult AddGroup()
         {
             return View();
         }
-        public ActionResult SearchTalent()
+        public ActionResult SendJoinRequest()
         {
             return View();
         }
-        public ActionResult Signup()
+        public ActionResult JoinRequest()
         {
             return View();
         }
-        public ActionResult Signin()
+        public ActionResult AddVideo()
         {
             return View();
         }
-        public ActionResult Subscription()
-        {
-            return View();
-        }
-
     }
 }

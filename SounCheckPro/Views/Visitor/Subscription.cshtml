@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Subscription";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="columns" >
+    <ul class="price">
+        <li class="header">Standard Access</li>
+        <li class="grey">$ 9.99 / year</li>
+        <li style="height:310px">
+            Basic functionality to search full talent, request booking, talentbased rates, Write and Receive reviews, and Calendar
+            The search function on search page should have category,
+            subcategory, and dates of event. So all members available on
+            those dates are only displayed in search results
+        </li>
+
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    </ul>
+</div>
+
+<div class="columns">
+    <ul class="price">
+        <li class="header">Premium Access</li>
+        <li class="grey">$ 24.99 / year</li>
+        <li style="height:310px">Full access to all features</li>
+
+        <li class="grey"><a href="#" class="button">Sign Up</a></li>
+    </ul>
+</div>
+@Styles.Render("~/css/Subscription.css")
+
+
