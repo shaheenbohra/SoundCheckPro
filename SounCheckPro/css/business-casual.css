@@ -466,13 +466,20 @@ p {
     margin-bottom: auto;
     width: 400px;
     background-color: rgb(233, 190, 90) !important;
+   
 }
-
+.cardDash {
+    margin-right: 1%;
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgb(233, 190, 90) !important;
+}
 .social_icon span {
     font-size: 60px;
     margin-left: 10px;
     color: rgba(47, 23, 15, 0.9);
-    
 }
 
     .social_icon span:hover {
